@@ -1,0 +1,13 @@
+C:\Users\Jiany\Documents\Visual Studio 2012\Projects\FractalDrawing\FractalDrawing\bin\Debug\MandelbrotDrawing.exe.config
+C:\Users\Jiany\Documents\Visual Studio 2012\Projects\FractalDrawing\FractalDrawing\bin\Debug\MandelbrotDrawing.exe
+C:\Users\Jiany\Documents\Visual Studio 2012\Projects\FractalDrawing\FractalDrawing\bin\Debug\MandelbrotDrawing.pdb
+C:\Users\Jiany\Documents\Visual Studio 2012\Projects\FractalDrawing\FractalDrawing\obj\Debug\MainWindow.baml
+C:\Users\Jiany\Documents\Visual Studio 2012\Projects\FractalDrawing\FractalDrawing\obj\Debug\MainWindow.g.cs
+C:\Users\Jiany\Documents\Visual Studio 2012\Projects\FractalDrawing\FractalDrawing\obj\Debug\App.g.cs
+C:\Users\Jiany\Documents\Visual Studio 2012\Projects\FractalDrawing\FractalDrawing\obj\Debug\MandelbrotDrawing_MarkupCompile.cache
+C:\Users\Jiany\Documents\Visual Studio 2012\Projects\FractalDrawing\FractalDrawing\obj\Debug\MandelbrotDrawing.g.resources
+C:\Users\Jiany\Documents\Visual Studio 2012\Projects\FractalDrawing\FractalDrawing\obj\Debug\MandelbrotDrawing.Properties.Resources.resources
+C:\Users\Jiany\Documents\Visual Studio 2012\Projects\FractalDrawing\FractalDrawing\obj\Debug\MandelbrotDrawing.csproj.GenerateResource.Cache
+C:\Users\Jiany\Documents\Visual Studio 2012\Projects\FractalDrawing\FractalDrawing\obj\Debug\MandelbrotDrawing.exe
+C:\Users\Jiany\Documents\Visual Studio 2012\Projects\FractalDrawing\FractalDrawing\obj\Debug\MandelbrotDrawing.pdb
+C:\Users\Jiany\Documents\Visual Studio 2012\Projects\FractalDrawing\FractalDrawing\obj\Debug\MandelbrotDrawing.csprojResolveAssemblyReference.cache
