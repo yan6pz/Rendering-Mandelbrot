@@ -36,9 +36,10 @@ namespace MandelbrotDrawing
 
                 var palette = GenerateColorPalette();
                 var img = new CustomBitmap(arguments.Width, arguments.Height);
-
-                var realScale = (Math.Abs(arguments.Coordinates[0]) + Math.Abs(arguments.Coordinates[1])) / arguments.Width; // Отстояние на което да преместим пикселите в реални числа
-                var imaginaryScale = (Math.Abs(arguments.Coordinates[2]) + Math.Abs(arguments.Coordinates[3])) / arguments.Height; // Отстояние на което да преместим пикселите в комплексни числа
+                // Offset in real numbers to which bits will be moved
+                var realScale = (Math.Abs(arguments.Coordinates[0]) + Math.Abs(arguments.Coordinates[1])) / arguments.Width; 
+                //  Offset in complex numbers to which bits will be moved
+                var imaginaryScale = (Math.Abs(arguments.Coordinates[2]) + Math.Abs(arguments.Coordinates[3])) / arguments.Height; 
                 
                 var stopwatch = new Stopwatch();
                 stopwatch.Start();
@@ -55,7 +56,7 @@ namespace MandelbrotDrawing
                     {
                         for (var y = 0; y < height; y++)
                         {
-                            //скалиране на комплексното число
+                            //scaling of complex number
                             var c = new Complex(x * realScale + coordinatesF, y * imaginaryScale + coordinatesS);
                             var z = c;
                             foreach (var t in palette)
@@ -92,10 +93,12 @@ namespace MandelbrotDrawing
             {
 
                 var scan0 = data.Scan0;
-
-                byte* imagePointer = (byte*)scan0.ToPointer(); // Пойнтер към първия пиксел на картината
-                int offset = (y * data.Stride) + (6 * x); // 6*x защото имаме 48bits/px = 6bytes/px
-                byte* px = (imagePointer + offset); // Пойнтер към пиксела, който ни трябва
+                // Pointer to the first pixel of the image
+                byte* imagePointer = (byte*)scan0.ToPointer(); 
+                // 6*x becouse we have 48bits/px = 6bytes/px
+                int offset = (y * data.Stride) + (6 * x);
+                // pointer to the pixel which bits will be changed
+                byte* px = (imagePointer + offset); 
                 px[0] = color.B;
                 px[1] = color.G;
                 px[2] = color.R; 
